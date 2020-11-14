@@ -1,6 +1,6 @@
 # cymru-mhr [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/cymru-mhr/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/cymru-mhr)
 
-Check if file hashes are dangerous using the CYMRU Malware Hash Registry.
+Check if file hashes are dangerous using the [Team CYMRU Malware Hash Registry](https://team-cymru.com/community-services/mhr).
 
 [![NPM Badge](https://nodei.co/npm/cymru-mhr.png)](https://npmjs.com/package/cymru-mhr)
 
@@ -25,11 +25,11 @@ console.log(`Detected by ${detectionRate} antivirus engines`)
 
 ### mhr(hash)
 
-Check if a file hash is dangerous using the CYMRU Malware Hash Registry. Returns a promise that resolves with `{ lastSeen: number, detectionRate: number }`.
+Check a file hash. Returns a promise that resolves with `{ lastSeen: number, detectionRate: number }`.
 
 ### mhr.multiple(hashes)
 
-Check if file hashes are dangerous using the CYMRU Malware Hash Registry. Returns a promise that resolves with an array of `{ lastSeen: number, detectionRate: number }`.
+Check multiple file hashes. Returns a promise that resolves with an array of `{ lastSeen: number, detectionRate: number }`.
 
 #### hash
 

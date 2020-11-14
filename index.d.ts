@@ -14,7 +14,7 @@ declare namespace mhr {
 
 declare const mhr: {
 	/**
-	Check if file hashes are dangerous using the CYMRU Malware Hash Registry.
+	Check if file hashes are dangerous using the [Team CYMRU Malware Hash Registry](https://team-cymru.com/community-services/mhr).
 
 	@param hashes An array of MD5 or SHA1 hashes to check.
 
@@ -32,7 +32,7 @@ declare const mhr: {
 	multiple: <HashValueType extends string>(hashes: HashValueType[]) => Promise<Record<HashValueType, mhr.DetectionResult>>
 
 	/**
-	Check if a file hash is dangerous using the CYMRU Malware Hash Registry.
+	Check if a file hash is dangerous using the [Team CYMRU Malware Hash Registry](https://team-cymru.com/community-services/mhr).
 
 	@param hash The MD5 or SHA1 hash to check.
 

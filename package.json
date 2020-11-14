@@ -1,7 +1,7 @@
 {
 	"name": "cymru-mhr",
 	"version": "1.0.0",
-	"description": "Check if file hashes are dangerous using the CYMRU Malware Hash Registry.",
+	"description": "Check if file hashes are dangerous using the Team CYMRU Malware Hash Registry.",
 	"repository": "https://github.com/Richienb/cymru-mhr.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
