@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "cymru-mhr",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Check if file hashes are dangerous using the CYMRU Malware Hash Registry.",
+	"repository": "https://github.com/Richienb/cymru-mhr.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,8 +17,19 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"antivirus",
+		"mhr",
+		"cymru",
+		"check",
+		"hash",
+		"md5",
+		"sha1"
+	],
+	"dependencies": {
+		"fromentries": "^1.3.2",
+		"p-event": "^4.2.0"
+	},
 	"devDependencies": {
 		"ava": "^3.13.0",
 		"eslint-config-richienb": "^0.5.0",
